@@ -32,14 +32,6 @@ Breast cancer is the leading cause of cancer death among women worldwide. Early 
 - Successfully matched: 3,103 images (87% match rate)
 - Class distribution: 56% Benign, 44% Malignant
 
-## Architecture
-SuperTinyMammoNet (98,178 parameters)
-├── Block 1: Conv2d(3→16) + BatchNorm + ReLU + MaxPool
-├── Block 2: Conv2d(16→32) + BatchNorm + ReLU + MaxPool
-├── Block 3: Conv2d(32→64) + BatchNorm + ReLU + MaxPool
-├── Block 4: Conv2d(64→128) + BatchNorm + ReLU + MaxPool
-└── Classifier: AdaptiveAvgPool + Flatten + Dropout(0.3) + Linear(128→2)
-
 ## Installation
 
 ### Prerequisites
@@ -92,7 +84,7 @@ streamlit run app.py
 Then open http://localhost:8501 in your browser.
 ```
 
-### Demo
+### Screenshots
 
 <img width="1280" height="615" alt="image" src="https://github.com/user-attachments/assets/427d5187-5275-4b48-a509-087e89dd58df" />
 
