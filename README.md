@@ -61,12 +61,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Download the CBIS-DDSM dataset from Kaggle from here: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
+Download the CBIS-DDSM dataset from Kaggle from here: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
 and place the archive folder in the project root.
 
-Expected folder structure:
+### Expected Folder Structure
 
-text
+```text
 AI-powered-mammogram-analysis-system/
 ├── archive/
 │   ├── csv/
@@ -80,13 +80,12 @@ AI-powered-mammogram-analysis-system/
 ├── train_final.py
 └── ...
 
-#Train the Model
-bash
+###Train the Model
+```bash
 python train_final.py
 The trained model (final_model_3103.pth) will be saved in the models directory.
 
 #Run the Web App
-bash
 streamlit run app.py
 
 Then open http://localhost:8501 in your browser.
