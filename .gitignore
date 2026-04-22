@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset (large files)
+archive/
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# Model files (large)
+*.pth
+*.pt
+*.pkl
+models/
+
+# Local test files
+test_images/
+additional/
+*.jpg
+*.png
+*.dcm
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hackathon submission
+CHEAL_HackHeal.pdf
+
+# Logs
+*.log
