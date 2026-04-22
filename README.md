@@ -65,6 +65,7 @@ Download the CBIS-DDSM dataset from Kaggle from here: https://www.kaggle.com/dat
 and place the archive folder in the project root.
 
 ### Expected Folder Structure
+```
 
 ```text
 AI-powered-mammogram-analysis-system/
