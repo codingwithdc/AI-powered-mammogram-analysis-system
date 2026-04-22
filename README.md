@@ -63,9 +63,9 @@ pip install -r requirements.txt
 
 Download the CBIS-DDSM dataset from Kaggle from here: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
 and place the archive folder in the project root.
+```
 
 ### Expected Folder Structure
-```
 
 ```text
 AI-powered-mammogram-analysis-system/
@@ -90,5 +90,14 @@ The trained model (final_model_3103.pth) will be saved in the models directory.
 streamlit run app.py
 
 Then open http://localhost:8501 in your browser.
+```
+
+### Demo
+
+<img width="1280" height="615" alt="image" src="https://github.com/user-attachments/assets/427d5187-5275-4b48-a509-087e89dd58df" />
+
+<img width="642" height="585" alt="image" src="https://github.com/user-attachments/assets/dd7206ce-c94d-4e72-9daf-e70a8c14f4fe" />
+
+
 
 
